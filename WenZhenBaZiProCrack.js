@@ -18,12 +18,12 @@
 [rewrite_local]
   
 # > 问真八字☆解锁钻石会员权限（2023-08-04）@ddgksf2013
-^https?:\/\/bzpp3\.iwzbz\.com\/api\/.*\/user\/getvipinfo url script-response-body https://github.com/ddgksf2013/MoYu/raw/master/WenZhenBaZiProCrack.js
+^https?:\/\/bzpp*\.iwzbz\.com\/api\/.*\/user\/getvipinfo url script-response-body https://github.com/cnage/MoYu/raw/master/WenZhenBaZiProCrack.js
 
 
 [mitm] 
 
-hostname=bzpp3.iwzbz.com
+hostname=bzpp*.iwzbz.com
 
 ***********************************/
 
