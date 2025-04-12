@@ -3,7 +3,8 @@
 
 [Script]
 # > 问真八字☆解锁钻石会员权限
-http-response ^https?:\/\/bzpp.*\.iwzbz\.com\/api\/.*\/user\/getvipinfo script-path=https://github.com/ddgksf2013/MoYu/raw/master/WenZhenBaZiProCrack.js, requires-body=true, tag=WenZhenBaZiPro
+http-response ^https?:\/\/bzpp.*\.iwzbz\.com\/api\/.*\/user\/getvipinfo script-path=https://github.com/cnage/MoYu/raw/master/WenZhenBaZiPro.js, requires-body=true, tag=WenZhenBaZiPro
+# > http-response ^https?:\/\/bzpp.*\.iwzbz\.com\/api\/.*\/user\/getvipinfo script-path=https://github.com/ddgksf2013/MoYu/raw/master/WenZhenBaZiProCrack.js, requires-body=true, tag=WenZhenBaZiPro
 
 [MITM]
 hostname = bzpp*.iwzbz.com
